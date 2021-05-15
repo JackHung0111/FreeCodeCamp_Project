@@ -1,3 +1,5 @@
+# https://replit.com/@JackHung0111/boilerplate-time-calculator-1
+
 def add_time(start, duration, day = "none"):
     start_hr,start_mins = start.split()[0].split(':')
     start_hr,start_mins = int(start_hr), int(start_mins)

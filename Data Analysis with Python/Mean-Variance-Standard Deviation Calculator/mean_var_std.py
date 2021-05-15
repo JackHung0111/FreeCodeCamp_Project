@@ -1,3 +1,5 @@
+# https://replit.com/@JackHung0111/boilerplate-mean-variance-standard-deviation-calculator
+
 import numpy as np
 
 def calculate(list):

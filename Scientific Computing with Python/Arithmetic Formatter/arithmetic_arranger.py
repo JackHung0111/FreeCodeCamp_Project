@@ -1,3 +1,5 @@
+# https://replit.com/@JackHung0111/boilerplate-arithmetic-formatter-1
+
 def arithmetic_arranger(problems, ans=False):
     operands = []
     # check length of the list
