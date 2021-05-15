@@ -16,7 +16,7 @@ def draw_plot():
     slope, intercept = linregress(df["Year"], df["CSIRO Adjusted Sea Level"])[0:2]
     m = slope
     b = intercept
-    x_pred = pd.Series([i for i in range(1880,2050)])
+    x_pred = pd.Series([i for i in range(1880,2051)])
     y_pred = m*x_pred + b
     plt.plot(x_pred, y_pred, "green")
 
@@ -25,7 +25,7 @@ def draw_plot():
     slope2, intercept2 = linregress(mod_df["Year"], mod_df["CSIRO Adjusted Sea Level"])[0:2]
     m2 = slope2
     b2 = intercept2
-    x_pred2 = pd.Series([i for i in range(2000,2050)])
+    x_pred2 = pd.Series([i for i in range(2000,2051)])
     y_pred2 = m2*x_pred2 + b2
     plt.plot(x_pred2, y_pred2, "red")
     
